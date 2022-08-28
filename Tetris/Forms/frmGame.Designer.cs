@@ -2,6 +2,7 @@
 namespace Tetris.Forms
 {
     using Tetris.Classes.Structure;
+    using System;
     partial class frmGame
     {
         /// <summary>
@@ -44,7 +45,7 @@ namespace Tetris.Forms
             this.txtFinalScore = new System.Windows.Forms.TextBox();
             this.lblGameOver = new System.Windows.Forms.Label();
             this.pnlNewGame = new System.Windows.Forms.Panel();
-            this.lbxSelectDifficulty = new System.Windows.Forms.ListBox();
+            this.cbxSelectDifficulty = new System.Windows.Forms.ComboBox();
             this.lblSelectDifficulty = new System.Windows.Forms.Label();
             this.txtNewPlayer = new System.Windows.Forms.TextBox();
             this.btnNewGame = new System.Windows.Forms.Button();
@@ -74,6 +75,10 @@ namespace Tetris.Forms
             this.btnBack = new System.Windows.Forms.Button();
             this.txtRanking = new System.Windows.Forms.TextBox();
             this.lblRanking = new System.Windows.Forms.Label();
+            this.pnlMenu = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbxGame)).BeginInit();
             this.pnlGameOver.SuspendLayout();
             this.pnlNewGame.SuspendLayout();
@@ -81,6 +86,7 @@ namespace Tetris.Forms
             this.pnlCommands.SuspendLayout();
             this.pnlGamePaused.SuspendLayout();
             this.pnlRanking.SuspendLayout();
+            this.pnlMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblScore
@@ -237,23 +243,24 @@ namespace Tetris.Forms
             // pnlNewGame
             // 
             this.pnlNewGame.BackColor = System.Drawing.Color.Black;
-            this.pnlNewGame.Controls.Add(this.lbxSelectDifficulty);
+            this.pnlNewGame.Controls.Add(this.cbxSelectDifficulty);
             this.pnlNewGame.Controls.Add(this.lblSelectDifficulty);
             this.pnlNewGame.Controls.Add(this.txtNewPlayer);
             this.pnlNewGame.Controls.Add(this.btnNewGame);
             this.pnlNewGame.Controls.Add(this.lblNewPlayer);
-            this.pnlNewGame.Location = new System.Drawing.Point(600, 0);
+            this.pnlNewGame.Location = new System.Drawing.Point(7000, 0);
             this.pnlNewGame.Name = "pnlNewGame";
             this.pnlNewGame.Size = new System.Drawing.Size(554, 639);
             this.pnlNewGame.TabIndex = 7;
             // 
-            // lbxSelectDifficulty
+            // cbxSelectDifficulty
             // 
-            this.lbxSelectDifficulty.DataSource = System.Enum.GetValues(typeof(Difficulty));
-            this.lbxSelectDifficulty.Location = new System.Drawing.Point(154, 300);
-            this.lbxSelectDifficulty.Name = "lbxSelectDifficulty";
-            this.lbxSelectDifficulty.Size = new System.Drawing.Size(241, 43);
-            this.lbxSelectDifficulty.TabIndex = 5;
+
+            this.cbxSelectDifficulty.DataSource = System.Enum.GetValues(typeof(Difficulty));
+            this.cbxSelectDifficulty.Location = new System.Drawing.Point(154, 300);
+            this.cbxSelectDifficulty.Name = "cbxSelectDifficulty";
+            this.cbxSelectDifficulty.Size = new System.Drawing.Size(241, 21);
+            this.cbxSelectDifficulty.TabIndex = 5;
             // 
             // lblSelectDifficulty
             // 
@@ -611,11 +618,73 @@ namespace Tetris.Forms
             this.lblRanking.Text = "RANKING";
             this.lblRanking.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pnlMenu
+            // 
+            this.pnlMenu.BackColor = System.Drawing.Color.Black;
+            this.pnlMenu.Controls.Add(this.button3);
+            this.pnlMenu.Controls.Add(this.button1);
+            this.pnlMenu.Controls.Add(this.button2);
+            this.pnlMenu.Location = new System.Drawing.Point(6000, 0);
+            this.pnlMenu.Name = "pnlMenu";
+            this.pnlMenu.Size = new System.Drawing.Size(554, 639);
+            this.pnlMenu.TabIndex = 11;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1.BackColor = System.Drawing.Color.OrangeRed;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
+            this.button1.Location = new System.Drawing.Point(153, 189);
+            this.button1.Name = "button1";
+            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.button1.Size = new System.Drawing.Size(246, 50);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "RANKING";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button2.BackColor = System.Drawing.Color.ForestGreen;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.Control;
+            this.button2.Location = new System.Drawing.Point(153, 484);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(246, 50);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "NEW GAME";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button3.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.Control;
+            this.button3.Location = new System.Drawing.Point(153, 342);
+            this.button3.Name = "button3";
+            this.button3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.button3.Size = new System.Drawing.Size(246, 50);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "ADJUSTS";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // frmGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.pnlMenu);
             this.Controls.Add(this.pnlRanking);
             this.Controls.Add(this.pnlNewGame);
             this.Controls.Add(this.pnlGamePaused);
@@ -651,6 +720,7 @@ namespace Tetris.Forms
             this.pnlGamePaused.PerformLayout();
             this.pnlRanking.ResumeLayout(false);
             this.pnlRanking.PerformLayout();
+            this.pnlMenu.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -693,7 +763,7 @@ namespace Tetris.Forms
         private System.Windows.Forms.Panel pnlNewGame;
         private System.Windows.Forms.TextBox txtNewPlayer;
         private System.Windows.Forms.Button btnNewGame;
-        private System.Windows.Forms.ListBox lbxSelectDifficulty;
+        private System.Windows.Forms.ComboBox cbxSelectDifficulty;
         private System.Windows.Forms.Label lblNewPlayer;
         private System.Windows.Forms.Panel pnlRanking;
         private System.Windows.Forms.Label lblRanking;
@@ -701,6 +771,10 @@ namespace Tetris.Forms
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.TextBox txtRanking;
         private System.Windows.Forms.Label lblSelectDifficulty;
+        private System.Windows.Forms.Panel pnlMenu;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
 

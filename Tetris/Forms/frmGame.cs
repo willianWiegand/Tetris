@@ -40,6 +40,7 @@ namespace Tetris.Forms
         private int minDelay;
         private int delayDecrease;
         private bool pauseGame = false;
+        public int ultimaTela;
         private TetrisState tetrisState = new TetrisState(Difficulty.Easy);
 
         public frmGame()
@@ -48,6 +49,9 @@ namespace Tetris.Forms
             this.Size = new Size(570, 678);
             this.Visible = true;
             imageControls = Setup(tetrisState.Grid);
+
+            pnlMenu.Location = new Point(0, 0);
+            pnlMenu.BringToFront();
 
             pnlNewGame.Location = new Point(0, 0);
             pnlNewGame.BringToFront();
@@ -85,26 +89,26 @@ namespace Tetris.Forms
         private async Task GameLoop()
         {
             pbxGame.Refresh();
-            var d = lbxSelectDifficulty.SelectedItem;
+            var d = cbxSelectDifficulty.SelectedIndex;
             switch (d)
             {
-                case Difficulty.Easy:                     
+                case 0:
                     maxDelay = 600;
                     minDelay = 200;
                     delayDecrease = 50;
                     break;
-                case Difficulty.Meddium:
+                case 1:
                     maxDelay = 525;
                     minDelay = 150;
                     delayDecrease = 75;
                     break;
-                case Difficulty.Hard:
+                case 2:
                     maxDelay = 450;
                     minDelay = 50;
                     delayDecrease = 100;
                     break;
             }
-            
+
             while (!tetrisState.GameOver)
             {
                 int delay = Math.Max(minDelay, maxDelay - (tetrisState.Level - 1) * delayDecrease);
@@ -220,8 +224,8 @@ namespace Tetris.Forms
         // Quando o jogo inicializa é solicitado o nome do novo jogador
         private void frmGame_Load(object sender, EventArgs e)
         {
-            pnlNewGame.Visible = true;
-            //pnlNewGame.BringToFront();
+            pnlNewGame.Visible = false;
+            pnlMenu.Visible = true;
         }
 
         // Evento de tecla descida
@@ -271,12 +275,16 @@ namespace Tetris.Forms
             pnlGameOver.Visible = false;
             pnlNewGame.Visible = true;
         }
-  
+
         // Evento de clique no botão New Game
         // Ao clicar, é gerado uma nova instância do jogo
         // O jogador já é cadastrado no banco de dados com sua pontuação zerada
         // Inicializa a tarefa do jogo
-        private async void btnNewGame_Click(object sender, EventArgs e)
+        private void btnNewGame_Click(object sender, EventArgs e)
+        {
+            IniciaJogo();
+        }
+        private async void IniciaJogo()
         {
             var p = new Player();
 
@@ -299,8 +307,9 @@ namespace Tetris.Forms
             try
             {
                 p.AddPlayer();
-                tetrisState = new TetrisState((Difficulty)lbxSelectDifficulty.SelectedItem);
+                tetrisState = new TetrisState((Difficulty)cbxSelectDifficulty.SelectedIndex);
                 pnlNewGame.Visible = false;
+                pnlMenu.Visible = false;
                 this.Focus();
                 await GameLoop();
             }
@@ -320,9 +329,14 @@ namespace Tetris.Forms
         private void btnRanking_Click(object sender, EventArgs e)
         {
             pnlGameOver.Visible = false;
+            pnlMenu.Visible = false;
             pnlRanking.Visible = true;
             txtRanking.Text = "";
-
+            ultimaTela = 2;
+            MostraRanking();
+        }
+        private void MostraRanking()
+        {
             var p = new Player();
             var listRanking = p.SearchTop10();
 
@@ -339,9 +353,38 @@ namespace Tetris.Forms
         private void btnBack_Click(object sender, EventArgs e)
         {
             pnlRanking.Visible = false;
-            pnlGameOver.Visible = true;
+            switch (ultimaTela)
+            {
+                case 1:
+                    pnlMenu.Visible = true;
+                    break;
+                case 2:
+                    pnlGameOver.Visible = true;
+                    break;
+            }
+
         }
 
-       
+        private void button3_Click(object sender, EventArgs e)
+        {
+            pnlMenu.Visible = false;
+            pnlNewGame.Visible = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pnlMenu.Visible = false;
+            pnlRanking.Visible = true;
+            txtRanking.Text = "";
+            ultimaTela = 1;
+            MostraRanking();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            pnlMenu.Visible = false;
+            IniciaJogo();
+        }
     }
 }
