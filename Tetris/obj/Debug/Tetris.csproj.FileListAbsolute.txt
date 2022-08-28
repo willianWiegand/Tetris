@@ -1,0 +1,13 @@
+D:\Projetos\aTetris Game\Tetris\Tetris\bin\Debug\Classes\DataBase\LocalDB.mdf
+D:\Projetos\aTetris Game\Tetris\Tetris\bin\Debug\Classes\DataBase\LocalDB_log.ldf
+D:\Projetos\aTetris Game\Tetris\Tetris\bin\Debug\Tetris.exe.config
+D:\Projetos\aTetris Game\Tetris\Tetris\bin\Debug\Tetris.exe
+D:\Projetos\aTetris Game\Tetris\Tetris\bin\Debug\Tetris.pdb
+D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.csproj.AssemblyReference.cache
+D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.g.resources
+D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.Forms.frmGame.resources
+D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.Properties.Resources.resources
+D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.csproj.GenerateResource.cache
+D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.csproj.CoreCompileInputs.cache
+D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.exe
+D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.pdb
