@@ -4,6 +4,7 @@
     {
         Easy,
         Meddium,
-        Hard
+        Hard,
+        test
     }
 }
