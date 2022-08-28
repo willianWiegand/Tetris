@@ -1,9 +1,70 @@
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris\Tetris\obj\Debug\Tetris.csproj.AssemblyReference.cache
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris\Tetris\obj\Debug\Tetris.g.resources
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris\Tetris\obj\Debug\Tetris.Forms.frmGame.resources
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris\Tetris\obj\Debug\Tetris.Properties.Resources.resources
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris\Tetris\obj\Debug\Tetris.csproj.GenerateResource.cache
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris\Tetris\obj\Debug\Tetris.csproj.CoreCompileInputs.cache
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris\Tetris\bin\Debug\Tetris.exe.config
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris\Tetris\bin\Debug\Tetris.exe
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris\Tetris\bin\Debug\Tetris.pdb
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris\Tetris\obj\Debug\Tetris.exe
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris\Tetris\obj\Debug\Tetris.pdb
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris-Teste\Tetris\bin\Debug\Tetris.exe.config
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris-Teste\Tetris\bin\Debug\Tetris.exe
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris-Teste\Tetris\bin\Debug\Tetris.pdb
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris-Teste\Tetris\obj\Debug\Tetris.g.resources
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris-Teste\Tetris\obj\Debug\Tetris.Forms.frmGame.resources
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris-Teste\Tetris\obj\Debug\Tetris.Properties.Resources.resources
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris-Teste\Tetris\obj\Debug\Tetris.csproj.GenerateResource.cache
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris-Teste\Tetris\obj\Debug\Tetris.csproj.CoreCompileInputs.cache
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris-Teste\Tetris\obj\Debug\Tetris.exe
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris-Teste\Tetris\obj\Debug\Tetris.pdb
+C:\Users\edudo\Desktop\Trabalho Sequor\Tetris-Teste\Tetris\obj\Debug\Tetris.csproj.AssemblyReference.cache
+C:\Users\dorred\OneDrive - SNEF BRASIL\Área de Trabalho\Trabalho\Desafio 0 - Tetris\Tetris\Tetris\bin\Debug\Tetris.exe.config
+C:\Users\dorred\OneDrive - SNEF BRASIL\Área de Trabalho\Trabalho\Desafio 0 - Tetris\Tetris\Tetris\bin\Debug\Tetris.exe
+C:\Users\dorred\OneDrive - SNEF BRASIL\Área de Trabalho\Trabalho\Desafio 0 - Tetris\Tetris\Tetris\bin\Debug\Tetris.pdb
+C:\Users\dorred\OneDrive - SNEF BRASIL\Área de Trabalho\Trabalho\Desafio 0 - Tetris\Tetris\Tetris\obj\Debug\Tetris.csproj.AssemblyReference.cache
+C:\Users\dorred\OneDrive - SNEF BRASIL\Área de Trabalho\Trabalho\Desafio 0 - Tetris\Tetris\Tetris\obj\Debug\Tetris.csproj.SuggestedBindingRedirects.cache
+C:\Users\dorred\OneDrive - SNEF BRASIL\Área de Trabalho\Trabalho\Desafio 0 - Tetris\Tetris\Tetris\obj\Debug\Tetris.g.resources
+C:\Users\dorred\OneDrive - SNEF BRASIL\Área de Trabalho\Trabalho\Desafio 0 - Tetris\Tetris\Tetris\obj\Debug\Tetris.Forms.frmGame.resources
+C:\Users\dorred\OneDrive - SNEF BRASIL\Área de Trabalho\Trabalho\Desafio 0 - Tetris\Tetris\Tetris\obj\Debug\Tetris.Properties.Resources.resources
+C:\Users\dorred\OneDrive - SNEF BRASIL\Área de Trabalho\Trabalho\Desafio 0 - Tetris\Tetris\Tetris\obj\Debug\Tetris.csproj.GenerateResource.cache
+C:\Users\dorred\OneDrive - SNEF BRASIL\Área de Trabalho\Trabalho\Desafio 0 - Tetris\Tetris\Tetris\obj\Debug\Tetris.csproj.CoreCompileInputs.cache
+C:\Users\dorred\OneDrive - SNEF BRASIL\Área de Trabalho\Trabalho\Desafio 0 - Tetris\Tetris\Tetris\obj\Debug\Tetris.exe
+C:\Users\dorred\OneDrive - SNEF BRASIL\Área de Trabalho\Trabalho\Desafio 0 - Tetris\Tetris\Tetris\obj\Debug\Tetris.pdb
+C:\Users\dorred\OneDrive - SNEF BRASIL\Área de Trabalho\Trabalho\Desafio 0 - Tetris\Tetris\Tetris\bin\Debug\Classes\DataBase\LocalDB.mdf
+C:\Users\dorred\OneDrive - SNEF BRASIL\Área de Trabalho\Trabalho\Desafio 0 - Tetris\Tetris\Tetris\bin\Debug\Classes\DataBase\LocalDB_log.ldf
+C:\Projetos\Tetris\Tetris\bin\Debug\Classes\DataBase\LocalDB.mdf
+C:\Projetos\Tetris\Tetris\bin\Debug\Classes\DataBase\LocalDB_log.ldf
+C:\Projetos\Tetris\Tetris\bin\Debug\Tetris.exe.config
+C:\Projetos\Tetris\Tetris\bin\Debug\Tetris.exe
+C:\Projetos\Tetris\Tetris\bin\Debug\Tetris.pdb
+C:\Projetos\Tetris\Tetris\obj\Debug\Tetris.csproj.AssemblyReference.cache
+C:\Projetos\Tetris\Tetris\obj\Debug\Tetris.g.resources
+C:\Projetos\Tetris\Tetris\obj\Debug\Tetris.Forms.frmGame.resources
+C:\Projetos\Tetris\Tetris\obj\Debug\Tetris.Properties.Resources.resources
+C:\Projetos\Tetris\Tetris\obj\Debug\Tetris.csproj.GenerateResource.cache
+C:\Projetos\Tetris\Tetris\obj\Debug\Tetris.csproj.CoreCompileInputs.cache
+C:\Projetos\Tetris\Tetris\obj\Debug\Tetris.exe
+C:\Projetos\Tetris\Tetris\obj\Debug\Tetris.pdb
+D:\cursos\Eduardo\Tetris\Tetris\bin\Debug\Classes\DataBase\LocalDB.mdf
+D:\cursos\Eduardo\Tetris\Tetris\bin\Debug\Classes\DataBase\LocalDB_log.ldf
+D:\cursos\Eduardo\Tetris\Tetris\bin\Debug\Tetris.exe.config
+D:\cursos\Eduardo\Tetris\Tetris\bin\Debug\Tetris.exe
+D:\cursos\Eduardo\Tetris\Tetris\bin\Debug\Tetris.pdb
+D:\cursos\Eduardo\Tetris\Tetris\obj\Debug\Tetris.csproj.AssemblyReference.cache
+D:\cursos\Eduardo\Tetris\Tetris\obj\Debug\Tetris.g.resources
+D:\cursos\Eduardo\Tetris\Tetris\obj\Debug\Tetris.Forms.frmGame.resources
+D:\cursos\Eduardo\Tetris\Tetris\obj\Debug\Tetris.Properties.Resources.resources
+D:\cursos\Eduardo\Tetris\Tetris\obj\Debug\Tetris.csproj.GenerateResource.cache
+D:\cursos\Eduardo\Tetris\Tetris\obj\Debug\Tetris.csproj.CoreCompileInputs.cache
+D:\cursos\Eduardo\Tetris\Tetris\obj\Debug\Tetris.exe
+D:\cursos\Eduardo\Tetris\Tetris\obj\Debug\Tetris.pdb
 D:\Projetos\aTetris Game\Tetris\Tetris\bin\Debug\Classes\DataBase\LocalDB.mdf
 D:\Projetos\aTetris Game\Tetris\Tetris\bin\Debug\Classes\DataBase\LocalDB_log.ldf
 D:\Projetos\aTetris Game\Tetris\Tetris\bin\Debug\Tetris.exe.config
 D:\Projetos\aTetris Game\Tetris\Tetris\bin\Debug\Tetris.exe
 D:\Projetos\aTetris Game\Tetris\Tetris\bin\Debug\Tetris.pdb
-D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.csproj.AssemblyReference.cache
 D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.g.resources
 D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.Forms.frmGame.resources
 D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.Properties.Resources.resources
@@ -11,3 +72,4 @@ D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.csproj.GenerateResource.
 D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.csproj.CoreCompileInputs.cache
 D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.exe
 D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.pdb
+D:\Projetos\aTetris Game\Tetris\Tetris\obj\Debug\Tetris.csproj.AssemblyReference.cache
