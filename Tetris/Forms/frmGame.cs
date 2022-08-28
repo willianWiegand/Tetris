@@ -33,9 +33,12 @@ namespace Tetris.Forms
       Properties.Resources.img_ZBlock,
     };
         private readonly Image[,] imageControls;
-        private readonly int maxDelay = 600;
-        private readonly int minDelay = 100;
-        private readonly int delayDecrease = 50;
+        //private readonly int maxDelay = 600;
+        //private readonly int minDelay = 100;
+        //private readonly int delayDecrease = 50;
+        private int maxDelay;
+        private int minDelay;
+        private int delayDecrease;
         private bool pauseGame = false;
         private TetrisState tetrisState = new TetrisState(Difficulty.Easy);
 
@@ -82,7 +85,26 @@ namespace Tetris.Forms
         private async Task GameLoop()
         {
             pbxGame.Refresh();
-
+            var d = lbxSelectDifficulty.SelectedItem;
+            switch (d)
+            {
+                case Difficulty.Easy:                     
+                    maxDelay = 600;
+                    minDelay = 200;
+                    delayDecrease = 50;
+                    break;
+                case Difficulty.Meddium:
+                    maxDelay = 525;
+                    minDelay = 150;
+                    delayDecrease = 75;
+                    break;
+                case Difficulty.Hard:
+                    maxDelay = 450;
+                    minDelay = 50;
+                    delayDecrease = 100;
+                    break;
+            }
+            
             while (!tetrisState.GameOver)
             {
                 int delay = Math.Max(minDelay, maxDelay - (tetrisState.Level - 1) * delayDecrease);
